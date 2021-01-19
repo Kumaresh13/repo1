@@ -1,8 +1,55 @@
-*,
-::after,
-::before {
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+nav,
+section {
+  width: 100vw;
+  margin: 0;
+  padding: 50px 3vw;
+}
+nav {
+  padding-top: 0px;
+  padding-bottom: 0px;
+  position: fixed;
+  top: 0;
   background: #fafafa;
+}
+ul {
+  list-style: none;
+}
+.navbar {
+  height: 80px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.navlinks ul {
+  display: flex;
+}
+.navlinks ul li {
+  margin: auto 10px;
+  padding: 8px 12px;
+  cursor: pointer;
+  position: relative;
+  top: 4px;
+}
+.navlinks ul li::after {
+  content: "";
+  width: 0px;
+  height: 3px;
+  background: #34fd8f;
+  display: flex;
+  position: relative;
+  left: -7px;
+  top: 3px;
+  transition: all 0.3s ease;
+}
+.navlinks ul li:hover::after {
+  width: 40px;
+}
+.navlinks ul li:last-child {
+  margin-right: 0;
 }
