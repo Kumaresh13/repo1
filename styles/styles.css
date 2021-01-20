@@ -8,7 +8,7 @@ nav,
 section {
   width: 100vw;
   margin: 0;
-  padding: 50px 3vw;
+  padding: 50px 5vw;
 }
 nav {
   padding-top: 0px;
@@ -52,4 +52,25 @@ ul {
 }
 .navlinks ul li:last-child {
   margin-right: 0;
+}
+.header p {
+  color: #aaaaaa;
+  letter-spacing: 1px;
+}
+.header p:nth-child(1):after {
+  width: 220px;
+  height: 3px;
+  content: "";
+  display: inline-block;
+  background: #34fd8f;
+  position: relative;
+  margin-left: 18px;
+  top: -3px;
+}
+.header p:nth-child(2) {
+  font-weight: 600 !important;
+  font-size: 36px;
+  color: #010483;
+  margin-top: 0px;
+  letter-spacing: 1px;
 }
