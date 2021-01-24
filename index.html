@@ -1,388 +1,437 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Team Bits</title>
-    <link rel="stylesheet" href="./styles/styles.css">
-    <link rel="stylesheet" href="styles/waves.css">
-    <link rel="stylesheet" href="styles/cards.css">
-    <link rel="stylesheet" href="styles/gallery.css">
-    <link rel="stylesheet" href="styles/contacts.css">
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;600&display=swap" rel="stylesheet">
-    <script src="https://kit.fontawesome.com/18f9ce2a0f.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./styles/styles.css" />
+    <link rel="stylesheet" href="styles/waves.css" />
+    <link rel="stylesheet" href="styles/aboutUs.css">
+    <link rel="stylesheet" href="styles/cards.css" />
+    <link rel="stylesheet" href="styles/activities.css">
+    <link rel="stylesheet" href="styles/gallery.css" />
+    <link rel="stylesheet" href="styles/contacts.css" />
+    <link rel="stylesheet" href="styles/projects.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link rel="stylesheet" href="styles/timeline.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;600&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/18f9ce2a0f.js"
+      crossorigin="anonymous"
+    ></script>
   </head>
-<body>
-  <nav >
-   <div class="navbar">
-       <div class="logo">
-          <strong>
-            Team Bits
-          </strong>
-       </div>
-       <div class="navlinks">
+  <body>
+    <nav>
+      <div class="navbar">
+        <div class="logo">
+          <img class="logoImg" src="Images/Gallery/LOGO.png" alt="" />
+        </div>
+        <div class="navlinks">
           <ul>
-            <li>
-              Home
-            </li>
-            <li>
-              About
-            </li>
-            <li>
-              Project
-            </li>
-            <li>
-              Timeline
-            </li>
-            <li>
-              Team
-            </li>
-            <li>
-              Gallery
-            </li>
+            <li class="Home active"><a href="#">Home</a></li>
+            <li class="About"><a href="#About">About</a></li>
+            <li class="Project"><a href="#Project">Project</a></li>
+            <li class="Timeline"><a href="#Timeline">Timeline</a></li>
+            <li class="Team"><a href="#Team">Team</a></li>
+            <li class="Gallery"><a href="#Gallery">Gallery</a></li>
           </ul>
-       </div>
-   </div>
-  </nav>  
-  <div class="waveWrapper waveAnimation">
-    <img class="logo" src="Images/Gallery/LOGO.png" alt="">
-    <div class="waveWrapperInner bgTop">
-      <div class="wave waveTop" style="background-image: url('http://front-end-noobs.com/jecko/img/wave-top.png')"></div>
+        </div>
+      </div>
+    </nav>
+    <div class="waveWrapper waveAnimation">
+      <img class="logoOnGIF" src="Images/Gallery/LOGO.png" alt="" />
+      <div class="waveWrapperInner bgTop">
+        <div
+          class="wave waveTop"
+          style="
+            background-image: url('http://front-end-noobs.com/jecko/img/wave-top.png');
+          "
+        ></div>
+      </div>
+      <div class="waveWrapperInner bgMiddle">
+        <div
+          class="wave waveMiddle"
+          style="
+            background-image: url('http://front-end-noobs.com/jecko/img/wave-mid.png');
+          "
+        ></div>
+      </div>
+      <div class="waveWrapperInner bgBottom">
+        <div
+          class="wave waveBottom"
+          style="
+            background-image: url('http://front-end-noobs.com/jecko/img/wave-bot.png');
+          "
+        ></div>
+      </div>
     </div>
-    <div class="waveWrapperInner bgMiddle">
-      <div class="wave waveMiddle" style="background-image: url('http://front-end-noobs.com/jecko/img/wave-mid.png')"></div>
+    <section class="about" id="About">
+      <div class="about-illustration"></div>
+      <div class="header-about">
+        <div>
+
+        </div>
+        <div>
+          <h1>About Us</h1>
+          <div>
+            Hailing from Birla Institute of Technology and Science, Pilani
+            campus we are a team of dedicated engineers and science majors who
+            share a mutual love for automobiles and the environment and what
+            better opportunity than Shell-Eco Marathon to showcase our zeal.<br/><br/> We
+            aim to build the most fuel efficient vehicles with the most
+            sustainable materials and make the planet a beautiful abode to live
+            in. We have been active since 2012 and till now have won accolades
+            both nationally and internationally. Additionally we boast of being
+            the first Indian college team to build an Ethanol based car engine.
+            We are constantly working to improve our game and give back to the
+            community in every way possible which mostly includes being vocal
+            about saving our planet Earth.
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="projects" id="Project">
+      <div class="header">
+        <p>PROJECT</p>
+        <p>CHECK OUR LATEST PROJECTS</p>
+        <div class="projectCards">
+          <aside class="profile-card">
+            <header>
+              <a href="#">
+                <img
+                  class="projectImage"
+                  src="Images/Gallery/media final.jpg"
+                />
+              </a>
+              <h1>Arcadian</h1>
+            </header>
+            <div class="profile-bio">
+              <p>
+                I am an Electric Vehicle<br />
+                I posses Improved aerodynamics: Drag coeff - 0.27<br />I have a
+                Chassis made of Carbon-fibre monocoque with Aluminium honeycomb
+                core for strength<br />I am incorporated withs mountings to
+                eliminate metal frames reducing weight by 20%
+              </p>
+            </div>
+          </aside>
+          <aside class="profile-card">
+            <header>
+              <a href="#">
+                <img class="projectImage" src="Images/Gallery/pic3.jpg" />
+              </a>
+              <h1>Daksh</h1>
+            </header>
+            <div class="profile-bio">
+              <p>
+                I am the 1st Car in India to run on 100% Ethanol<br />
+                I run on Bajaj discover 100cc engine<br />I have a LightWeight
+                Chassis made of carbon Fiber for robust endurance.<br />I have
+                an Enhanced Compression Ratio: 10 to 13 for optimum performance
+              </p>
+            </div>
+          </aside>
+        </div>
+      </div>
+    </section>
+    <div class="activities">
+      <div class="acCards">
+        <div>
+          <i class="fas fa-people-carry"></i>
+        </div>
+        <div>16</div>
+        <div>Team Members</div>
+      </div>
+      <div class="acCards">
+        <div>
+          <i class="fas fa-calendar-day"></i>
+        </div>
+        <div>8</div>
+        <div>Years Competing</div>
+      </div>
+      <div class="acCards"> 
+        <div>
+          <i class="fas fa-tools"></i>
+        </div>
+        <div>7</div>
+        <div>Projects</div>
+      </div>
+      <div class="acCards">
+        <div>
+          <i class="fas fa-award"></i>
+        </div>
+        <div>4th</div>
+        <div>Place, 2021</div>
+      </div>
     </div>
-    <div class="waveWrapperInner bgBottom">
-      <div class="wave waveBottom" style="background-image: url('http://front-end-noobs.com/jecko/img/wave-bot.png')"></div>
-    </div>
-  </div>
-  <section class="about">
-    <div class="about-illustration">
-    </div>
-    <div class="header-about">
-      <h1>
-        About us
-      </h1>
-    </div>
-  </section>
-  <section class="projects">
-   <div class="header">
-      <p>
-        PROJECT
-      </p>
-      <p>
-        CHECK OUR LATEST PROJECTS
-      </p>
-    </div>
-  </section>
-  <section class="timeline">
-    <div class="header">
-      <p>
-        TIMELINE
-      </p>
-      <p>
-        OUR JOURNEY SO FAR
-      </p>
-    </div>
-  </section>
-  <section class="team">
-    <div class="header">
-      <p>
-        TEAM
-      </p>
-      <p>
-        MEET OUR TEAM
-      </p>
-      <div class="row">
-        <div class="col">
+    <section class="timeline" id="Timeline">
+      <div class="header">
+        <p>TIMELINE</p>
+        <p>OUR JOURNEY SO FAR</p>
+        <section class="timeline1">
+          <ol>
+            <li>
+              <div>
+                <time>1967</time> Aenean condimentum odio a bibendum rhoncus. Ut
+                mauris felis, volutpat eget porta faucibus, euismod quis ante.
+              </div>
+            </li>
+            <li>
+              <div>
+                <time>1977</time> Vestibulum porttitor lorem sed pharetra
+                dignissim. Nulla maximus, dui a tristique iaculis, quam dolor
+                convallis enim, non dignissim ligula ipsum a turpis.
+              </div>
+            </li>
+            <li>
+              <div>
+                <time>1985</time> In mattis elit vitae odio posuere, nec maximus
+                massa varius. Suspendisse varius volutpat mattis. Vestibulum id
+                magna est.
+              </div>
+            </li>
+            <li>
+              <div>
+                <time>2000</time> In mattis elit vitae odio posuere, nec maximus
+                massa varius. Suspendisse varius volutpat mattis. Vestibulum id
+                magna est.
+              </div>
+            </li>
+            <li></li>
+          </ol>
+        </section>
+      </div>
+    </section>
+    <section class="team" id="Team">
+      <div class="header">
+        <p>TEAM</p>
+        <p>MEET OUR TEAM</p>
+        <div class="row">
+          <div class="col">
             <div class="our-team">
               <div class="picture">
-                <img
-                  class="img-fluid"
-                  src="Images/Team/ankit.png"
-                />
+                <img class="img-fluid" src="Images/Team/ankit.png" />
               </div>
               <div class="team-content">
                 <h3 class="name">Ankit</h3>
                 <h4 class="title">Team Manager</h4>
-                <h4 class="vehicle"><i style="padding: 1rem;" class="fas fa-suitcase"></i>ICE Vehicle</h4>
+                <h4 class="vehicle">
+                  <i style="padding: 1rem" class="fas fa-suitcase"></i>ICE
+                  Vehicle
+                </h4>
               </div>
               <ul class="social">
                 <li>
-                  <a
-                    class="fa fa-facebook"
-                    aria-hidden="true"
-                  ></a>
+                  <a class="fa fa-facebook" aria-hidden="true"></a>
                 </li>
                 <li>
-                  <a
-                    class="fa fa-twitter"
-                    aria-hidden="true"
-                  ></a>
+                  <a class="fa fa-twitter" aria-hidden="true"></a>
                 </li>
                 <li>
-                  <a
-                    class="fa fa-google-plus"
-                    aria-hidden="true"
-                  ></a>
+                  <a class="fa fa-google-plus" aria-hidden="true"></a>
                 </li>
                 <li>
-                  <a
-                    class="fa fa-linkedin"
-                    aria-hidden="true"
-                  ></a>
+                  <a class="fa fa-linkedin" aria-hidden="true"></a>
                 </li>
               </ul>
             </div>
           </div>
-        <div class="col">
-          <div class="our-team">
-            <div class="picture">
-              <img
-                class="img-fluid"
-                src="Images/Team/shubham.jpg"
-              />
-            </div>
-            <div class="team-content">
-              <h3 class="name">Shubham Bansal</h3>
-              <h4 class="title">Team Manager</h4>
-              <h4 class="vehicle"><i style="padding: 1rem;" class="fas fa-suitcase"></i>Electric Vehicle</h4>
-            </div>
-            <ul class="social">
-              <li>
-                <a
-                  class="fa fa-facebook"
-                  aria-hidden="true"
-                ></a>
-              </li>
-              <li>
-                <a
-                  class="fa fa-twitter"
-                  aria-hidden="true"
-                ></a>
-              </li>
-              <li>
-                <a
-                  class="fa fa-google-plus"
-                  aria-hidden="true"
-                ></a>
-              </li>
-              <li>
-                <a
-                  class="fa fa-linkedin"
-                  aria-hidden="true"
-                ></a>
-              </li>
-            </ul>
-          </div>
-        </div>
-        <div class="col">
-          <div class="our-team">
-            <div class="picture">
-              <img
-                class="img-fluid"
-                src="Images/Team/lakshit.jpeg"
-              />
-            </div>
-            <div class="team-content">
-              <h3 class="name">Lakshit Mittal</h3>
-              <h4 class="title">EV Powertrain Head</h4>
-              <h4 class="vehicle"><i style="padding: 1rem;" class="fas fa-suitcase"></i>Electric Vehicle</h4>
-            </div>
-            <ul class="social">
-              <li>
-                <a
-                  class="fa fa-facebook"
-                  aria-hidden="true"
-                ></a>
-              </li>
-              <li>
-                <a
-                  class="fa fa-twitter"
-                  aria-hidden="true"
-                ></a>
-              </li>
-              <li>
-                <a
-                  class="fa fa-google-plus"
-                  aria-hidden="true"
-                ></a>
-              </li>
-              <li>
-                <a
-                  class="fa fa-linkedin"
-                  aria-hidden="true"
-                ></a>
-              </li>
-            </ul>
-          </div>
-        </div>
-        <div class="col">
-          <div class="our-team">
-            <div class="picture">
-              <img
-                class="img-fluid"
-                src="Images/Team/arpan.png"
-              />
-            </div>
-            <div class="team-content">
-              <h3 class="name">Arpan Sharma</h3>
-              <h4 class="title">Aerodynamics Head</h4>
-              <h4 class="vehicle"><i style="padding: 1rem;" class="fas fa-suitcase"></i>ICE/Electric Vehicle</h4>
-            </div>
-            <ul class="social">
-              <li>
-                <a
-                  class="fa fa-facebook"
-                  aria-hidden="true"
-                ></a>
-              </li>
-              <li>
-                <a
-                  class="fa fa-twitter"
-                  aria-hidden="true"
-                ></a>
-              </li>
-              <li>
-                <a
-                  class="fa fa-google-plus"
-                  aria-hidden="true"
-                ></a>
-              </li>
-              <li>
-                <a
-                  class="fa fa-linkedin"
-                  aria-hidden="true"
-                ></a>
-              </li>
-            </ul>
-          </div>
-        </div>
-        <div class="col">
+          <div class="col">
             <div class="our-team">
               <div class="picture">
-                <img
-                  class="img-fluid"
-                  src="Images/Team/Ikshwak_latest.jpeg"
-                />
+                <img class="img-fluid" src="Images/Team/shubham.jpg" />
+              </div>
+              <div class="team-content">
+                <h3 class="name">Shubham Bansal</h3>
+                <h4 class="title">Team Manager</h4>
+                <h4 class="vehicle">
+                  <i style="padding: 1rem" class="fas fa-suitcase"></i>Electric
+                  Vehicle
+                </h4>
+              </div>
+              <ul class="social">
+                <li>
+                  <a class="fa fa-facebook" aria-hidden="true"></a>
+                </li>
+                <li>
+                  <a class="fa fa-twitter" aria-hidden="true"></a>
+                </li>
+                <li>
+                  <a class="fa fa-google-plus" aria-hidden="true"></a>
+                </li>
+                <li>
+                  <a class="fa fa-linkedin" aria-hidden="true"></a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="col">
+            <div class="our-team">
+              <div class="picture">
+                <img class="img-fluid" src="Images/Team/lakshit.jpeg" />
+              </div>
+              <div class="team-content">
+                <h3 class="name">Lakshit Mittal</h3>
+                <h4 class="title">EV Powertrain Head</h4>
+                <h4 class="vehicle">
+                  <i style="padding: 1rem" class="fas fa-suitcase"></i>Electric
+                  Vehicle
+                </h4>
+              </div>
+              <ul class="social">
+                <li>
+                  <a class="fa fa-facebook" aria-hidden="true"></a>
+                </li>
+                <li>
+                  <a class="fa fa-twitter" aria-hidden="true"></a>
+                </li>
+                <li>
+                  <a class="fa fa-google-plus" aria-hidden="true"></a>
+                </li>
+                <li>
+                  <a class="fa fa-linkedin" aria-hidden="true"></a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="col">
+            <div class="our-team">
+              <div class="picture">
+                <img class="img-fluid" src="Images/Team/arpan.png" />
+              </div>
+              <div class="team-content">
+                <h3 class="name">Arpan Sharma</h3>
+                <h4 class="title">Aerodynamics Head</h4>
+                <h4 class="vehicle">
+                  <i style="padding: 1rem" class="fas fa-suitcase"></i
+                  >ICE/Electric Vehicle
+                </h4>
+              </div>
+              <ul class="social">
+                <li>
+                  <a class="fa fa-facebook" aria-hidden="true"></a>
+                </li>
+                <li>
+                  <a class="fa fa-twitter" aria-hidden="true"></a>
+                </li>
+                <li>
+                  <a class="fa fa-google-plus" aria-hidden="true"></a>
+                </li>
+                <li>
+                  <a class="fa fa-linkedin" aria-hidden="true"></a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="col">
+            <div class="our-team">
+              <div class="picture">
+                <img class="img-fluid" src="Images/Team/Ikshwak_latest.jpeg" />
               </div>
               <div class="team-content">
                 <h3 class="name">Ikshwak Jinesh</h3>
                 <h4 class="title">ICE Powertrain</h4>
-                <h4 class="vehicle"><i style="padding: 1rem;" class="fas fa-suitcase"></i>ICE Vehicle</h4>
-
+                <h4 class="vehicle">
+                  <i style="padding: 1rem" class="fas fa-suitcase"></i>ICE
+                  Vehicle
+                </h4>
               </div>
               <ul class="social">
                 <li>
-                  <a
-                    class="fa fa-facebook"
-                    aria-hidden="true"
-                  ></a>
+                  <a class="fa fa-facebook" aria-hidden="true"></a>
                 </li>
                 <li>
-                  <a
-                    class="fa fa-twitter"
-                    aria-hidden="true"
-                  ></a>
+                  <a class="fa fa-twitter" aria-hidden="true"></a>
                 </li>
                 <li>
-                  <a
-                    class="fa fa-google-plus"
-                    aria-hidden="true"
-                  ></a>
+                  <a class="fa fa-google-plus" aria-hidden="true"></a>
                 </li>
                 <li>
-                  <a
-                    class="fa fa-linkedin"
-                    aria-hidden="true"
-                  ></a>
+                  <a class="fa fa-linkedin" aria-hidden="true"></a>
                 </li>
               </ul>
             </div>
           </div>
-      </div>
-    </div>
-  </section>
-  <section class="gallery">
-    <div class="header">
-      <p>
-        GALLERY
-      </p>
-      <p>
-        CHECK OUR GALLERY
-      </p>
-      <div class="feed-images">  
-        <img src="Images/Gallery/gallery-1.jpg" alt="">
-        <img src="Images/Gallery/gallery-3.jpg" alt="">
-        <img src="Images/Gallery/gallery-6.jpg" alt="">
-        <img src="Images/Gallery/gallery-10.jpg" alt="">
-        <img src="Images/Gallery/gallery-9.jpg" alt="">
-        <img src="Images/Gallery/gallery-2.jpg" alt="">
-        <img src="Images/Gallery/gallery-7.jpg" alt="">
-        <img src="Images/Gallery/gallery-4.jpg" alt="">
-        <img src="Images/Gallery/gallery-8.jpg" alt="">
-        <img src="Images/Gallery/gallery-5.jpg" alt="">      
-      </div>
-    </div> 
-  </section>
-  <section class="contactus">
-   <div class="header">
-     <p>
-       CONTACT
-     </p>
-      <p>
-       CONTACT US
-      </p>
-      <div class="contacts">
-        <div>
-          <div class="location">
-            <div class="firstIcon">
-              <i class="fas fa-map-marker-alt"></i>
-            </div>
-            <div class="locationContent">
-              <div>Location:</div>
-              <div>HIG 133, Kanan Vihar Phase 1, Patia, Bhubaneswar 751024, India</div>
-            </div>
-          </div>
-          <div>
-            <div class="location">
-              <div>
-                <i class="fas fa-envelope"></i>
-              </div>
-              <div class="locationContent">
-                <div>Email:</div>
-                <div>admin@Qc4Application.com</div>
-              </div>
-            </div>
-          </div>
-          <div>
-            <div class="location">
-              <div>
-                <i class="fas fa-phone-square-alt"></i>
-              </div>
-              <div class="locationContent">
-                <div>Call:</div>
-                <div>+91 7846996536</div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="inputs">
-          <div class="firstrow">
-            <input type="text" placeholder="Name">
-            <input type="text" placeholder="Email">
-          </div>
-          <div class="secondRow">
-            <input type="text" placeholder="Subject">
-          </div>
-          <div class="thirdRow">
-            <textarea placeholder="Your message"></textarea>
-          </div>
-          <button>Submit</button>
         </div>
       </div>
-   </div>
-  </section>
-</body>
+    </section>
+    <section class="gallery" id="Gallery">
+      <div class="header">
+        <p>GALLERY</p>
+        <p>CHECK OUR GALLERY</p>
+        <div class="feed-images">
+          <img src="Images/Gallery/gallery-1.jpg" alt="" />
+          <img src="Images/Gallery/gallery-3.jpg" alt="" />
+          <img src="Images/Gallery/gallery-6.jpg" alt="" />
+          <img src="Images/Gallery/gallery-10.jpg" alt="" />
+          <img src="Images/Gallery/gallery-9.jpg" alt="" />
+          <img src="Images/Gallery/gallery-2.jpg" alt="" />
+          <img src="Images/Gallery/gallery-7.jpg" alt="" />
+          <img src="Images/Gallery/gallery-4.jpg" alt="" />
+          <img src="Images/Gallery/gallery-8.jpg" alt="" />
+          <img src="Images/Gallery/gallery-5.jpg" alt="" />
+        </div>
+      </div>
+    </section>
+    <section class="contactus" id="Contactus">
+      <div class="header">
+        <p>CONTACT</p>
+        <p>CONTACT US</p>
+        <div class="contacts">
+          <div>
+            <div class="location">
+              <div class="firstIcon">
+                <i class="fas fa-map-marker-alt"></i>
+              </div>
+              <div class="locationContent">
+                <div>Location:</div>
+                <div>
+                  HIG 133, Kanan Vihar Phase 1, Patia, Bhubaneswar 751024, India
+                </div>
+              </div>
+            </div>
+            <div>
+              <div class="location">
+                <div>
+                  <i class="fas fa-envelope"></i>
+                </div>
+                <div class="locationContent">
+                  <div>Email:</div>
+                  <div>admin@Qc4Application.com</div>
+                </div>
+              </div>
+            </div>
+            <div>
+              <div class="location">
+                <div>
+                  <i class="fas fa-phone-square-alt"></i>
+                </div>
+                <div class="locationContent">
+                  <div>Call:</div>
+                  <div>+91 7846996536</div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="inputs">
+            <div class="firstrow">
+              <input type="text" placeholder="Name" />
+              <input type="text" placeholder="Email" />
+            </div>
+            <div class="secondRow">
+              <input type="text" placeholder="Subject" />
+            </div>
+            <div class="thirdRow">
+              <textarea placeholder="Your message"></textarea>
+            </div>
+            <button>Submit</button>
+          </div>
+        </div>
+      </div>
+    </section>
+    <script src="script.js"></script>
+  </body>
 </html>

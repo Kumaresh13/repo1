@@ -24,7 +24,6 @@
     overflow: hidden;
     height: 100%;
     bottom: -1px;
-    /* background-image: url("Images/Team BITS_3.mp4"); */
     background-image: url(https://media.giphy.com/media/VTm3HnHp9dSJg3x684/giphy.gif);
     background-repeat: no-repeat;
     background-size: 100% 100%;
@@ -36,6 +35,40 @@
     position: inherit;
     width: 50%;
 }
+
+.logoOnGIF
+{
+    z-index: 100;
+    position: inherit;
+    width: 70%;
+    height: 40%;    
+    margin: 18% 16%;
+}
+
+@media screen and (min-width: 1000px)
+{
+    .logoOnGIF
+    {
+        margin: 7%;
+    }
+}
+
+@media screen and (min-width: 700px)
+{
+    .logoOnGIF
+    {
+        margin: 20% 20%;
+    }
+}
+
+@media screen and (min-width: 1500px)
+{
+    .logoOnGIF
+    {
+        margin: 15% 20%;
+    }
+}
+
 .bgTop {
     z-index: 15;
     opacity: 0.5;
